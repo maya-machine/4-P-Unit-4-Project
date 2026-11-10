@@ -1,7 +1,7 @@
 <!--Unit 4 Project
 Requirements
 [yes ] Three Distinct CSS font-family Declarations
-[ ] Five CSS Rules
+[ yes] Five CSS Rules
 [ ] An Unordered **or** Ordered List (<ul> or <ol>)
 [ ] Three Images
 
@@ -20,6 +20,22 @@ Select ONE Additional Feature to Add
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <style>
+    h1{
+      color:rgb(240, 170, 40);
+      text-align: center;
+    }
+    body{
+      color: purple;
+      text-align: center;
+    }
+    p, li {
+      color: green;
+      text-align: left;
+    }
+    img{
+      text-align: left;
+      display:block
+    }
 #park {
   font-family: serif;
 }
@@ -29,20 +45,47 @@ Select ONE Additional Feature to Add
 #else {
   font-family: monospace ;
 }
+
   </style>
 </head>
 <body>
 
-  <h1>My Unofficial Local Guide to [~~~]</h1>
+  <h1>My Unofficial Local Guide to Bklyn</h1>
+
   
   <h3 id="park"> Prospect Park</h3>
   <hr>
-  <p>About Content Element #1</p>
+  <p>
+  <ul>
+    <li>trees</li>
+    <li>flowers</li>
+    <li>vines</li>
+    <li>vibes</li>
+  </ul>
+</p>
   <br><br>
 
   <h3 id="food">The Food </h3>
   <hr>
-  <p>About Content Element #2</p>
+  <p>bagels</p>
+  <img
+  src="https://www.thevegspace.co.uk/wp-content/uploads/2015/04/vegan-bagels.jpg"
+  width="200"
+  >
+
+  <p>tacos</p>
+  <img
+  src="https://www.swankyrecipes.com/wp-content/uploads/2022/08/Birria-Tacos.jpg"
+  width="200"
+  >
+
+  <p>italian</p>
+  <img
+  src="https://www.allrecipes.com/thmb/gAtetyF5zkojB9p4nhVGuECtLTI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11826945-pasta-alla-zozzona-recipe-VAT-Beauty-4x3-0d28a3c5091f45d695c6f69368e1853b.jpg"
+  width="200" 
+  >
+
+  background-image: cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
   <br><br>
 
   <h3 id="else">Else</h3>
